@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  background-image: url('../public/images/titleimg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#resume {
+  text-decoration: none;
+}
+
+.section_a {
+  background-color: orange;
+  padding: 20px;
+  margin: 0;
+}
+
+.maintxt {
+  float: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  padding-left: 700px;
+  padding-top: 250px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.desc {
+  float: left;
+  padding-left: 700px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.School {
+  color: blue;
+}
+
+.majors {
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.education {
+  background-color: rgb(255, 253, 115);
+  margin: 0px;
+  height: 400px;
+}
+
+.footer {
+  background-color: #313131;
+}
+
+.experience {
+  background-color: rgb(168, 168, 168);
+}
+
+.projects {
+  background-color: #000000;
+}
