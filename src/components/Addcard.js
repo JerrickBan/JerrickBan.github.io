@@ -7,7 +7,8 @@ import Button from 'react-bootstrap/Button';
 
 const Addcard = (props) => {
     const view = props.view;
-    if (view) {
+    const git = props.git
+    if (view && git) {
         return(
             <CCol xs>
                 <CCard color="info" className={`mb-3 border-light`}>
@@ -25,7 +26,23 @@ const Addcard = (props) => {
             </CCol>
         );
     }
-
+    else if (view) {
+        return(
+            <CCol xs>
+                <CCard color="info" className={`mb-3 border-light`}>
+                    {/* <CCardImage orientation="top" src={props.img} /> */}
+                    <CCardBody>
+                        <CCardTitle>{props.name}</CCardTitle>
+                        <CCardSubtitle>{props.date}</CCardSubtitle>
+                        <CCardText>
+                            {props.txt}
+                        </CCardText>
+                        <CButton color="success" href={props.view}>View</CButton>
+                    </CCardBody>
+                </CCard>
+            </CCol>
+        );
+    }
     else {
         return(
             <CCol xs>
