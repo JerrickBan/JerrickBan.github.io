@@ -10,7 +10,7 @@ import Addcard from './Addcard.js';
 function Projects() {
 
     var horizon_txt = "Collaborated and Communicated effectively with 3 other team members to publish a functioning Solar Power Consulting web application to the internet within 2 days. Organized, Analyzed, and Extracted online data about residential solar systems using Python libraries to enable back-end development.";
-    var horizonview = "https://sol-solutions.herokuapp.com/";
+    var horizonview = "https://sol-solutions.vercel.app/";
     var horizongit = "https://github.com/JerrickBan/project-horizon";
 
     var electro_txt = "Provides a digital trading platform for local communities and schools to reuse unwanted electronics in order to reduce electronic waste. Programmed the website from scratch with self-taught programming languages (HTML, CSS, bootstrap). Developed and managed the back-end databases using PHP."
